@@ -9,7 +9,7 @@ For example, this sentenance:
 
 
 ```
-"mary had a little lamb and john was happy. George likes Angel.  Dan hit Sonia hard"
+"mary had a little lamb and john was happy. George likes Angel.  Dan hit Sam hard"
 ```
 
 When sent to CorenLP yields:
@@ -192,8 +192,8 @@ When sent to CorenLP yields:
         },
         {
           "index": 3,
-          "word": "Sonia",
-          "originalText": "Sonia",
+          "word": "Sam",
+          "originalText": "Sam",
           "characterOffsetBegin": 72,
           "characterOffsetEnd": 77,
           "pos": "NNP",
