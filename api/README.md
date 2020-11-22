@@ -236,7 +236,7 @@ After translation for brat, it should yield:
     "14": {"type": "_SP", "offsets": [[63, 64]], "texts": [" "]}, 
     "15": {"type": "NNP", "offsets": [[64, 67]], "texts": ["Dan"]}, 
     "16": {"type": "VBD", "offsets": [[68, 71]], "texts": ["hit"]}, 
-    "17": {"type": "NNP", "offsets": [[72, 77]], "texts": ["Sonia"]}, 
+    "17": {"type": "NNP", "offsets": [[72, 77]], "texts": ["Sam"]}, 
     "18": {"type": "RB", "offsets": [[78, 82]], "texts": ["hard"]}}
 ```
 
@@ -260,7 +260,7 @@ deactivate
 
 ```
 source bin/ve-api/activate
-python coren_nlp_brat_api
+python corenlp_brat_api.py
 ```
 
 ### Docker
